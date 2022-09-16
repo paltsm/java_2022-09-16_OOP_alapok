@@ -12,7 +12,7 @@ public class Main {
 		System.out.println(p1);
 		System.out.println(p2);
 		System.out.println(p3);
-		System.out.printf("a %s pont távolsága az origotol %.3f\n", p3, p3.getTavolsagOrigotol());
+		System.out.printf("a %s pont távolsága az origótol %.3f\n", p3, p3.getTavolsagOrigotol());
 		System.out.printf("a %s pont távolsága a %s ponttól %.3f\n", p2, p3, p2.tavolsag(p3));
 
 		Pont[] pontok = new Pont[100];
@@ -29,6 +29,6 @@ public class Main {
 				legtavolabb_index = i;
 			}
 		}
-		System.out.printf("az origotol legtravolabb a %d. áll." + "a pont távolsaga az origotol: %s", (legtavolabb_index+1),pontok[legtavolabb_index],pontok[legtavolabb_index].getTavolsagOrigotol());
+		System.out.printf("az origótol legtávolabb a(z) %d. áll." + " a pont a(z): %s, távolsága az origótol: %.3f\n", (legtavolabb_index+1),pontok[legtavolabb_index],pontok[legtavolabb_index].getTavolsagOrigotol());
 	}
 }
