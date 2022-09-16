@@ -12,5 +12,23 @@ public class Main {
 		System.out.println(p1);
 		System.out.println(p2);
 		System.out.println(p3);
+		System.out.printf("a %s pont távolsága az origotol %.3f\n", p3, p3.getTavolsagOrigotol());
+		System.out.printf("a %s pont távolsága a %s ponttól %.3f\n", p2, p3, p2.tavolsag(p3));
+
+		Pont[] pontok = new Pont[100];
+		for (int i = 0; i < pontok.length; i++) {
+			pontok[i] = new Pont(15);
+		}
+		for (Pont p:pontok) {
+			System.out.println(p);
+		}
+
+		int legtavolabb_index=0;
+		for (int i = 0; i < pontok.length; i++) {
+			if (pontok[legtavolabb_index].getTavolsagOrigotol() < pontok[i].getTavolsagOrigotol()){
+				legtavolabb_index = i;
+			}
+		}
+		System.out.printf("az origotol legtravolabb a %d. áll." + "a pont távolsaga az origotol: %s", (legtavolabb_index+1),pontok[legtavolabb_index],pontok[legtavolabb_index].getTavolsagOrigotol());
 	}
 }
