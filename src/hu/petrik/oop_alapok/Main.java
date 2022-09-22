@@ -30,5 +30,6 @@ public class Main {
 			}
 		}
 		System.out.printf("az origótol legtávolabb a(z) %d. áll." + " a pont a(z): %s, távolsága az origótol: %.3f\n", (legtavolabb_index+1),pontok[legtavolabb_index],pontok[legtavolabb_index].getTavolsagOrigotol());
+		System.out.printf("a pont a %d. síknegyedben van",p2.sikNegyed());
 	}
 }
