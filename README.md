@@ -1,2 +1,3 @@
 # java OOP alapok 
-## 2022-09-16
+### házi feladat:
+1. : [kör](/src/hu/petrik/oop_alapok/kor/Kor.java)
