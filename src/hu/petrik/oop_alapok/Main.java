@@ -53,6 +53,6 @@ public class Main {
 				legtavolabb_index = i;
 			}
 		}
-		System.out.printf("legnagyobb kör: %s",korok[legnagyobb]);
+		System.out.printf("legnagyobb kör: %s", korok[legnagyobb]);
 	}
 }

@@ -1,8 +1,8 @@
 package hu.petrik.oop_alapok.kor;
 
 public class Kor {
-	
-//	+ Készítsen egy kört reprezentáló osztályt. Lehessen inicializálni a középpont koordinátáinak és a sugárnak a
+
+	//	+ Készítsen egy kört reprezentáló osztályt. Lehessen inicializálni a középpont koordinátáinak és a sugárnak a
 //	  megadásával, valamint csak a sugár megadásával (ilyenkor origó középpontú), valamint véletlenszerűen.
 //	+ Határozza meg a Kör kerületét.
 //	+ Határozza meg a Kör területét.
